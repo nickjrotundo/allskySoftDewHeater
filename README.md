@@ -65,7 +65,7 @@ To monitor your Raspberry Pi's CPU temperature, throttling status, and voltage i
 
 2. **Make tempCheck.sh Executable**:
    ```bash
-   chmod +x tempCheck.sh
+   sudo chmod +x tempCheck.sh
    ```
 
 3. **Run tempCheck.sh**:
