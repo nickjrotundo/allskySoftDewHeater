@@ -2,7 +2,7 @@
 # Dew Heater Script for Raspberry Pi
 
 ## Description
-This repository contains the `dewHeater.py` script, designed to increase the CPU usage of a Raspberry Pi to generate heat. This is particularly useful for preventing dew formation on an allsky camera's acrylic dome. The script includes a safety feature to ensure the CPU temperature does not exceed 60°C. Tested on Raspberry Pi 4B running Debian Bookworm.
+This repository contains the `dewHeater.py` script, designed to increase the CPU usage of a Raspberry Pi to generate heat. This is particularly useful for preventing dew formation on an allsky camera's acrylic dome. The script includes a safety feature to ensure the CPU temperature does not exceed 60°C. Tested on Raspberry Pi 4B running Raspberry Pi OS Bullseye with the allsky package.
 
 ## Installation
 The installation process is automated through the `install.sh` script, which will install `dewHeater.py` in your current directory.
